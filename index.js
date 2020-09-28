@@ -36,7 +36,7 @@ console.log("Mail Server :", config.get('mail.host'));
 
 if (app.get('env')==='development') {
     app.use(morgan('tiny'));
-    console.log("Morgan Enabled...");
+    console.log("Morgan Enabled.....");
 }
 
 
